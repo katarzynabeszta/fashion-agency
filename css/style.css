@@ -290,11 +290,6 @@ body .btn-four:hover {
   text-decoration: overline;
 }
 
-.our-work .container .work-box .btn-ow {
-  -ms-flex-line-pack: end;
-      align-content: flex-end;
-}
-
 .our-work .container .work-box .text {
   padding: 0 30px;
 }
@@ -307,8 +302,6 @@ body .btn-four:hover {
   margin: 16px 0 36px 0;
   text-align: center;
   padding: 0;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
 }
 
 .our-work .container .work-box .text .btn-ow:hover {
@@ -453,6 +446,7 @@ footer .container ul li:hover {
           transform: scale(1.2);
 }
 
+/* Media queries */
 @media all and (max-width: 767px) {
   .splash .splash-inner {
     text-align: center;
@@ -544,6 +538,12 @@ footer .container ul li:hover {
   }
   footer .container ul li {
     padding: 0 5px;
+  }
+}
+
+@media all and (min-width: 768px) and (max-width: 960px) {
+  .splash .splash-inner .page-title {
+    font-size: 72px;
   }
 }
 /*# sourceMappingURL=style.css.map */

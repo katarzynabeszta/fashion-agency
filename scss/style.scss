@@ -240,9 +240,6 @@ body {
                     }
                 }
             }
-            .btn-ow {
-                align-content: flex-end;
-            }
             .text {
                 padding: 0 30px;
                 .btn-ow {
@@ -253,7 +250,6 @@ body {
                     margin: 16px 0 36px 0;
                     text-align: center;
                     padding: 0;
-                    align-self: flex-end;
                 }
                 .btn-ow:hover {
                     color: #d35400;
@@ -347,6 +343,7 @@ footer .container {
 }
 
 
+/* Media queries */
 
 @media all and (max-width: 767px) {
     .splash .splash-inner {
@@ -434,5 +431,11 @@ footer .container {
     }
     footer .container ul li {
         padding: 0 5px;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 960px) {
+    .splash .splash-inner .page-title {
+        font-size: 72px;
     }
 }
